@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/fonts.css">
+  <link rel="stylesheet" type="text/css" href="styles/global.css">
+  <link rel="stylesheet" type="text/css" href="styles/lab_four_starter.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Dancing+Script:wght@400;700&family=Junge&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/d4a7a5632b.js" crossorigin="anonymous"></script>
+<script src="styles/lab_four.js" defer></script>
+  <title>Webitect</title>
+</head>
+<body>
+  <section class="hero-container">
+    <!-- Remove and add hero banner HTML -->
+    <div class="hero-image">
+        <img src="assets/kelly-sikkema-Dx1b5ucschA-unsplash.jpg" alt="person using ipad to draw logo" class="responsive">
+        <div class="hero-text">
+      <h1>Webitect.</h1>
+      <p>Crafting Digital Excellence, One Click at a Time.</p>
+    </div>
+    </div>
+  </section>
+  <section class="content-container">
+    <div class="content-image">
+    <img src="assets/john-schnobrich-2FPjlAyMQTA-unsplash.jpg" alt="three people sitting and pointing at laptop screen" class="responsive">
+    <div class="content-text">
+      <h2>Who is Webitect? </h2>
+    </div>
+    </div>
+    <div class="content-text2">
+      <p>Webitect is dedicated to revolutionizing the digital landscape through innovative web solutions. Our mission is to empower businesses and individuals with cutting-edge, user-centric websites that not only meet but exceed their unique goals. By blending creativity, technical expertise, and a passion for digital excellence, we strive to be the architects of online success, transforming visions into captivating and functional web experiences. At Webitect, we believe in the power of seamless collaboration, transparency, and unwavering commitment to our clients, fostering lasting partnerships that drive growth in the ever-evolving digital world.</p>
+    </div>
+    <div class="button-container">
+      <button class="content-button">Learn More</button>
+    </div>    
+  </section>
+  <section class="container accordion-container">
+    <!-- Remove and add accordion HTML -->
+    <div class="accordion-container">
+      <div class="accordion-section">
+        <div class="accordion-header" onclick="toggleAccordion('section1')">
+          <h2>Contact Us</h2>
+        </div>
+        <div class="accordion-content" id="section1">
+          <p>
+            Ready to elevate your online presence? Feel free to reach out to us whether you have a specific project in mind or just want to explore the possibilities. We look forward to connecting with you and turning your ideas into digital reality.
+          </p>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/kenny-robstad/?originalSubdomain=ca" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="accordion-section">
+        <div class="accordion-header" onclick="toggleAccordion('section2')">
+          <h2>Social Media</h2>
+        </div>
+        <div class="accordion-content" id="section2">
+          <p>
+          Stay connected with us on social media for a daily dose of inspiration, industry insights, and updates on our latest web wonders. Join the conversation and let's shape the digital future together!
+          </p>
+          <ul>
+          <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a></li>
+        </ul>
+        </div>
+        </div>
+      </div>
+    
+      <div class="accordion-section">
+        <div class="accordion-header" onclick="toggleAccordion('section3')">
+          <h2>Our Work</h2>
+        </div>
+        <div class="accordion-content" id="section3">
+          <p>Dive into our portfolio to witness the transformative journey of our web creations. From sleek designs to powerful functionalities, each project represents our commitment to crafting digital experiences that leave a lasting impression. Explore the artistry behind our work and discover how we turn visions into compelling online realities.</p>
+          <ul>
+            <li><a href="https://github.com/kenny-rob" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+          </ul>
+        </div>
+      </div>
+  </section>
+<section class="footer-container">
+  <div class="footer-content">
+   &copy; <span id="copyright-year"></span> Webitect. All rights reserved.
+  <ul>
+    <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+      <li><a href="https://github.com/kenny-rob" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+        <li><a href="https://www.linkedin.com/in/kenny-robstad/?originalSubdomain=ca" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        </li>
+        </li>
+    </li>
+  </ul>
+  <div class="footer-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1657.5134919131192!2d-117.92177029352057!3d33.81161672185742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7d12b3b5e6b%3A0x2ef62f8418225cfa!2sDisneyland%20Park!5e0!3m2!1sen!2sca!4v1709786134164!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+</body>
+</html>
